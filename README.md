@@ -122,8 +122,4 @@ together with the provider; do not mix 1.0.1 with AI 17.x.
 
 ## License
 
-Free for private and commercial use under the [IM.Umbraco.AI.Local License](https://github.com/Idea-Makers/im-umbraco-ai-local/blob/main/LICENSE.md):
-no modification, distribution only as part of your website or application, and a commercial
-website or application shows "Uses IM.Umbraco.AI.Local by Idea Makers" with a link to https://ideamakers.pl.
-
-© Idea Makers
+[MIT](LICENSE) © Idea Makers
