@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.1.4 - 2026-11-16
+
+- Updated the NuGet README with installation and upgrade instructions that apply across releases and a link to the public changelog.
+
 ## 17.1.3 - 2026-11-09
 
 - Chat requests send all system messages as one leading system message, joined in order with a blank line; the other messages keep their order. Fixes HTTP 400 "System message must be at the beginning" from LiteLLM with Jinja-templated models on Umbraco AI prompts.
