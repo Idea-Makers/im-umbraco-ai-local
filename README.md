@@ -40,19 +40,24 @@ ways, and this provider handles each of them:
 ## Installation
 
 ```bash
-dotnet add package IM.Umbraco.AI.Local --version 17.1.0
+dotnet add package IM.Umbraco.AI.Local
 ```
 
 Umbraco discovers the provider automatically. No composer or configuration code is needed.
 
-## Upgrading to 17.1.0
+## Upgrading
+
+See [GitHub Releases](https://github.com/Idea-Makers/im-umbraco-ai-local/releases) for release notes.
+If your installed version predates either of the changes below, review the relevant migration notes.
+
+### Upgrading to 17.1.0
 
 Version 17.1.0 changes how the provider talks to the server. No settings or code changes
 are needed, but check these points:
 
 - The provider connects directly and ignores system and environment proxy settings
-  (`HTTP_PROXY`, `HTTPS_PROXY`). If your server is only reachable through a proxy, stay on
-  17.0.0 and contact Idea Makers.
+  (`HTTP_PROXY`, `HTTPS_PROXY`). If your server is only reachable through a proxy, contact
+  Idea Makers before upgrading.
 - Failed requests are no longer retried. 17.0.0 used the SDK default of three retries, which
   could run the same generation up to four times.
 - A request without a complete response fails after 10 minutes. 17.0.0 allowed 100 seconds
@@ -61,7 +66,7 @@ are needed, but check these points:
 - The structured-output fallback also recognises error bodies that are not OpenAI-shaped. It
   remembers a downgrade only after the `json_object` retry succeeds.
 
-## Upgrading to 17.0.0
+### Upgrading to 17.0.0
 
 Version 17.0.0 targets the Umbraco AI 17.x release line and requires
 `Umbraco.AI.Core >=17.6.1,<18.0.0`. It replaces the 1.x package's Core dependency
