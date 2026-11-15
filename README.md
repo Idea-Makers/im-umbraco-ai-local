@@ -47,7 +47,7 @@ Umbraco discovers the provider automatically. No composer or configuration code 
 
 ## Upgrading
 
-Check the [requirements](#requirements) and [release notes](https://github.com/Idea-Makers/im-umbraco-ai-local/releases)
+Check the [requirements](#requirements) and [changelog](https://github.com/Idea-Makers/im-umbraco-ai-local/blob/main/CHANGELOG.md)
 before upgrading. If you need to roll back across Umbraco.AI release lines, restore the previous
 compatible Umbraco.AI package set together with the provider.
 
