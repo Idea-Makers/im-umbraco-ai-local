@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.1.5 - 2026-11-26
+
+- README only, no code changes. The README links to the package page https://ideamakers.pl/en/nuget/im-umbraco-ai-local/ as the documentation. `PackageProjectUrl` stays https://ideamakers.pl, where the Umbraco Marketplace reads the package JSON.
+
 ## 17.1.4 - 2026-11-16
 
 - Updated the NuGet README with installation and upgrade instructions that apply across releases and a link to the public changelog.
