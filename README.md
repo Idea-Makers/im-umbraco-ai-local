@@ -14,6 +14,8 @@ go only to the server you configure.
 > the [issue tracker](https://github.com/Idea-Makers/im-umbraco-ai-local/issues) and ask questions in
 > [Discussions](https://github.com/Idea-Makers/im-umbraco-ai-local/discussions).
 
+**Documentation:** [https://ideamakers.pl/en/nuget/im-umbraco-ai-local/](https://ideamakers.pl/en/nuget/im-umbraco-ai-local/)
+
 ## Why a separate provider
 
 The cloud providers bundled with Umbraco.AI assume a hosted API. Local servers differ in three
